@@ -41,6 +41,7 @@ text-align: center;
     border:0.6px solid aquamarine;
     border-radius:0.5rem;
     margin: 0 auto;
+    margin-top:4rem;
   }
 
   h1, p, img{
@@ -74,6 +75,7 @@ border-radius:1rem;
         max-width: 350px;
         max-height: none; 
         margin: 0 auto;
+        margin-top:2.5rem;
       }
 
       h1{

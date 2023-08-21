@@ -61,9 +61,11 @@ const search =ref('');
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
-  margin-bottom: 1.5rem;
+  padding-bottom: 8rem;
+  margin-top:3rem;
   margin: 0 auto;
-  align-items: flex-start; /* Allinea le card in alto */
+  align-items: flex-start; 
+
 }
 
 .nav-link {
