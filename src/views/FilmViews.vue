@@ -1,3 +1,15 @@
+<script setup>
+import { useRoute } from 'vue-router';
+import FilmData from '../data/filmList.json';
+
+const route = useRoute();
+const filmId = Number(route.params.id);
+const film = FilmData.find(film => film.id === filmId);
+
+</script>
+
+
+
 <template>
     <div class="container">
         <div class="card">
@@ -9,19 +21,7 @@
     </div>
   </template>
   
-  <script setup>
-  import { useRoute } from 'vue-router';
-  import FilmData from '../data/filmList.json';
-  
-  const route = useRoute();
-  const filmId = Number(route.params.id);
-  
 
-  
-
-  const film = FilmData.find(film => film.id === filmId);
-  
-  </script>
   
   <style scoped>
 

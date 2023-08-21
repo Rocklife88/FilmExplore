@@ -19,7 +19,7 @@
   
   .footer-text {
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color:aquamarine;
   }
   
