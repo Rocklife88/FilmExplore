@@ -7,11 +7,12 @@
   <style scoped>
   .footer {
     position: fixed;
+    z-index:10;
     margin-top:3rem;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #f0f0f0; /* colore di sfondo del footer */
+    background-color: #03001C; 
     padding: 1rem;
     text-align: center;
   }
@@ -19,7 +20,7 @@
   .footer-text {
     margin: 0;
     font-size: 1rem;
-    color: #333;
+    color:aquamarine;
   }
   
   .heart-icon {

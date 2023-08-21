@@ -1,22 +1,22 @@
 <script setup>
-import {ref, computed} from 'vue'
+import { ref, computed } from 'vue'
 import { RouterLink } from 'vue-router';
 import FilmCard from '../components/FilmCard.vue'
 import FilmData from '../data/filmList.json'
 
 const films = ref(FilmData)
-const isHovered= ref(false);
+const isHovered = ref(false);
 
 
 
-const filteredFilms = computed(() =>{
-return films.value.filter( film => film.title.toLowerCase().includes(search.value.toLowerCase()))
+const filteredFilms = computed(() => {
+  return films.value.filter(film => film.title.toLowerCase().includes(search.value.toLowerCase()))
 
 })
 
 
 
-const search =ref('');
+const search = ref('');
 
 </script>
 <template>
@@ -25,8 +25,9 @@ const search =ref('');
       <input v-model="search" type="text" placeholder="Search..." class="input-text">
     </div>
     <div class="card-container">
-      <RouterLink class="nav-link film-card" :class="{ 'hovered': isHovered }" @mouseover="isHovered = true" @mouseout="isHovered = false" :to="`/films/${film.id}`" v-for="film in filteredFilms" :key="film.id">
-        <FilmCard   :film="film"/>
+      <RouterLink class="nav-link film-card" :class="{ 'hovered': isHovered }" @mouseover="isHovered = true"
+        @mouseout="isHovered = false" :to="`/films/${film.id}`" v-for="film in filteredFilms" :key="film.id">
+        <FilmCard :film="film" />
       </RouterLink>
     </div>
   </div>
@@ -64,15 +65,15 @@ const search =ref('');
   flex-wrap: wrap;
   gap: 0.8rem;
   padding-bottom: 8rem;
-  margin-top:3rem;
+  margin-top: 3rem;
   margin: 0 auto;
-  align-items: flex-start; 
+  align-items: flex-start;
 
 }
 
 .film-card {
   padding: 10px;
-  transition:  transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .film-card:hover {
@@ -95,7 +96,7 @@ const search =ref('');
 
 @media (max-width: 768px) {
   .card-container {
-    justify-content: center; 
+    justify-content: center;
   }
 
   .container {
