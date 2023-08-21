@@ -75,6 +75,10 @@ border-radius:1rem;
         max-height: none; 
         margin: 0 auto;
       }
+
+      h1{
+        font-size:1.8rem;
+      }
     
       .image {
         width: 100%; 

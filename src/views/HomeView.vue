@@ -38,11 +38,16 @@ const search =ref('');
 }
 
 .header {
-  margin-bottom: 1.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
 }
 
 .input-text {
-  padding: 1rem 2rem 1rem ;
+  padding: 1rem 2rem 1rem;
   font-size: 1rem;
   text-align: left;
 }
@@ -54,10 +59,11 @@ const search =ref('');
 .card-container {
   width: 100%;
   display: flex;
-  gap: 0.8rem;
   flex-wrap: wrap;
+  gap: 0.8rem;
   margin-bottom: 1.5rem;
-  margin:0 auto;
+  margin: 0 auto;
+  align-items: flex-start; /* Allinea le card in alto */
 }
 
 .nav-link {
@@ -73,19 +79,13 @@ const search =ref('');
   color: aquamarine;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   .card-container {
-    justify-content: center;
+    justify-content: center; 
   }
 
   .container {
-    text-align: center; 
+    text-align: center;
   }
-
-  
 }
-
-
 </style>
-
-

@@ -30,7 +30,7 @@ import { RouterLink } from 'vue-router';
     height:5rem;
     align-items: center;
     justify-content: space-between;
-    margin-bottom:2rem;
+    margin-bottom:rem;
   
   }
 
