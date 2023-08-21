@@ -5,6 +5,8 @@ import FilmCard from '../components/FilmCard.vue'
 import FilmData from '../data/filmList.json'
 
 const films = ref(FilmData)
+const isHovered= ref(false);
+
 
 
 const filteredFilms = computed(() =>{
@@ -23,8 +25,8 @@ const search =ref('');
       <input v-model="search" type="text" placeholder="Search..." class="input-text">
     </div>
     <div class="card-container">
-      <RouterLink class="nav-link" :to="`/films/${film.id}`" v-for="film in filteredFilms" :key="film.id">
-        <FilmCard :film="film"/>
+      <RouterLink class="nav-link film-card" :class="{ 'hovered': isHovered }" @mouseover="isHovered = true" @mouseout="isHovered = false" :to="`/films/${film.id}`" v-for="film in filteredFilms" :key="film.id">
+        <FilmCard   :film="film"/>
       </RouterLink>
     </div>
   </div>
@@ -67,6 +69,16 @@ const search =ref('');
   align-items: flex-start; 
 
 }
+
+.film-card {
+  padding: 10px;
+  transition:  transform 0.3s ease;
+}
+
+.film-card:hover {
+  transform: scale(1.05);
+}
+
 
 .nav-link {
   text-decoration: none;
