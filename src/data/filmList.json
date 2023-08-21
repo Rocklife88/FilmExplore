@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "title": "Inception",
+        "description": "A mind-bending science fiction thriller directed by Christopher Nolan, where a thief enters people's dreams to steal their secrets.",
+        "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+        "release_year": 2010,
+        "poster": "https://www.sorrisi.com/wp-content/uploads/2017/11/inception.jpg"
+    },
+    {
+        "id": 2,
+        "title": "The Shawshank Redemption",
+        "description": "A poignant drama that follows the journey of two imprisoned men who form an unlikely friendship and find redemption against all odds.",
+        "cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+        "release_year": 1994,
+        "poster": "https://miro.medium.com/v2/resize:fit:1024/1*ZuyHle2wBnM1MY0xkIa9hA.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Pulp Fiction",
+        "description": "Quentin Tarantino's iconic crime film weaves interconnected stories of crime, wit, and unexpected encounters in a non-linear narrative.",
+        "cast": ["John Travolta", "Samuel L. Jackson", "Uma Thurman"],
+        "release_year": 1994,
+        "poster": "https://www.comunicati-stampa.fvg.it/wp-content/uploads/2023/07/Pulp-Fiction.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "description": "The first installment of the epic fantasy trilogy directed by Peter Jackson, where a hobbit embarks on a perilous journey to destroy a powerful ring.",
+        "cast": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+        "release_year": 2001,
+        "poster": "https://hips.hearstapps.com/hmg-prod/images/forrest-gump-1631294780.jpg"
+    },
+    {
+        "id": 5,
+        "title": "The Dark Knight",
+        "description": "Christopher Nolan's gripping superhero film follows Batman's efforts to combat a criminal mastermind known as the Joker.",
+        "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+        "release_year": 2008,
+        "poster": "https://images4.alphacoders.com/573/thumb-1920-57394.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Forrest Gump",
+        "description": "A heartwarming drama that chronicles the extraordinary life of Forrest Gump, a man with a low IQ who inadvertently influences historic events.",
+        "cast": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
+        "release_year": 1994,
+        "poster": "https://m.media-amazon.com/images/S/pv-target-images/b9f4dd7d3f9fa2cb36c757c7aecb690e8fc416e4165eb2d68d5fbdb837a19541._UR1920,1080_.jpg"
+    },
+    {
+        "id": 7,
+        "title": "The Matrix",
+        "description": "A groundbreaking science fiction film directed by the Wachowskis, where a computer hacker discovers the truth about reality and joins a rebellion against machines.",
+        "cast": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+        "release_year": 1999,
+        "poster": "https://www.staynerd.com/wp-content/uploads/Matrix-filosofia.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Inglourious Basterds",
+        "description": "Quentin Tarantino's revisionist war film follows a group of Jewish American soldiers on a mission to take down high-ranking Nazis during World War II.",
+        "cast": ["Brad Pitt", "Diane Kruger", "Christoph Waltz"],
+        "release_year": 2009,
+        "poster": "https://images.bauerhosting.com/legacy/empire-tmdb/films/16869/images/bk0GylJLneaSbpQZXpgTwleYigq.jpg?format=jpg&quality=80&width=1800&ratio=16-9&resize=aspectfill"
+    },
+    {
+        "id": 9,
+        "title": "Avatar",
+        "description": "James Cameron's visually stunning science fiction film is set on the alien planet of Pandora, where a paraplegic Marine is torn between duty and love.",
+        "cast": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
+        "release_year": 2009,
+        "poster": "https://www.filmpost.it/wp-content/uploads/2022/12/avatar20.jpg"
+    },
+    {
+        "id": 10,
+        "title": "The Lion King",
+        "description": "Disney's beloved animated classic tells the story of Simba, a young lion prince who must reclaim his throne from his wicked uncle.",
+        "cast": ["Matthew Broderick", "Jeremy Irons", "James Earl Jones"],
+        "release_year": 1994,
+        "poster": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/60E5E975C558712AA7F6D324B362026DE9D9A729DA3DD752F75A3B48CF6B67CF/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    },
+    {
+        "id": 11,
+        "title": "Jurassic Park",
+        "description": "Steven Spielberg's groundbreaking dinosaur adventure follows a group of scientists trapped in a theme park with cloned dinosaurs that run amok.",
+        "cast": ["Sam Neill", "Laura Dern", "Jeff Goldblum"],
+        "release_year": 1993,
+        "poster": "https://maremosso.lafeltrinelli.it/media/unxbitmm/banner_jurassic-park.jpg?anchor=center&mode=crop&width=1500&height=784&rnd=133307888927830000"
+    },
+    {
+        "id": 12,
+        "title": "Eternal Sunshine of the Spotless Mind",
+        "description": "A unique romantic sci-fi film that explores the tumultuous relationship of a couple who undergo a procedure to erase memories of each other.",
+        "cast": ["Jim Carrey", "Kate Winslet", "Kirsten Dunst"],
+        "release_year": 2004,
+        "poster": "https://www.ilsuperuovo.it/wp-content/uploads/2020/08/copertina.jpeg"
+    },
+    {
+        "id": 13,
+        "title": "Fight Club",
+        "description": "David Fincher's cult classic delves into the lives of an insomniac office worker and a soap salesman who form an underground fight club as a form of catharsis.",
+        "cast": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"],
+        "release_year": 1999,
+        "poster": "https://i0.wp.com/www.sentieriselvaggi.it/wp-content/uploads/2021/06/fight-club-1.jpg?fit=1280%2C795&ssl=1"
+    },
+    {
+        "id": 14,
+        "title": "Gladiator",
+        "description": "Ridley Scott's epic historical drama follows a former Roman general who seeks revenge against the corrupt emperor who murdered his family and enslaved him.",
+        "cast": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
+        "release_year": 2000,
+        "poster": "https://movieplayer.net-cdn.it/t/images/2023/05/09/il-gladiatore-2-film-ridley-scott-progetto-sensato_jpg_1600x900_crop_q85.jpg"
+    },
+    {
+        "id": 15,
+        "title": "The Avengers",
+        "description": "Marvel's superhero ensemble film brings together iconic characters like Iron Man, Captain America, Thor, and the Hulk to save the world from a formidable threat.",
+        "cast": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
+        "release_year": 2012,
+        "poster": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/82F3F6FA5D695E092E7BA684325ECD18F4F241CBEA31B660DD6F9DC57DE770B7/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    },
+    {
+        "id": 16,
+        "title": "Incredibles 2",
+        "description": "Pixar's animated sequel continues the adventures of the superhero family as they navigate the challenges of raising a family while battling supervillains.",
+        "cast": ["Craig T. Nelson", "Holly Hunter", "Samuel L. Jackson"],
+        "release_year": 2018,
+        "poster": "https://lumiere-a.akamaihd.net/v1/images/image_8c37075f.jpeg?region=0,0,640,480"
+    },
+    {
+        "id": 17,
+        "title": "The Revenant",
+        "description": "Alejandro González Iñárritu's survival drama follows a frontiersman who embarks on a treacherous journey of revenge after being mauled by a bear and left for dead.",
+        "cast": ["Leonardo DiCaprio", "Tom Hardy", "Domhnall Gleeson"],
+        "release_year": 2015,
+        "poster": "https://www.key4biz.it/wp-content/uploads/2016/02/TheRevenant.jpg"
+    },
+    {
+        "id": 18,
+        "title": "La La Land",
+        "description": "A modern musical that explores the love story between a struggling actress and a jazz musician in the vibrant city of Los Angeles.",
+        "cast": ["Ryan Gosling", "Emma Stone", "John Legend"],
+        "release_year": 2016,
+        "poster": "https://cinemaserietv.it/wp-content/uploads/2023/02/p12386480_v_h10_az.jpg"
+    }
+]
