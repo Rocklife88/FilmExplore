@@ -1,8 +1,14 @@
+<script setup>
+import { RouterLink } from 'vue-router';
+
+
+</script>
 
 <template>
     <div class="header">
 <div class="logo-wrapper">
-<h2 class="logo">FilmExplorer</h2>
+  <RouterLink class="logo" to="/"><h2 class="logo">FilmExplorer</h2></RouterLink>
+
 </div>
 
     <div class="link-wrapper">
@@ -31,6 +37,8 @@
   .logo{
     color:aquamarine;
     font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
   }
 
   .link-wrapper{
@@ -52,5 +60,14 @@
   .nav-link:hover{
     color:aquamarine
   }
+
+  @media (max-width: 768px) { 
+  .header{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top:1rem;
+  }
+}
   
 </style>

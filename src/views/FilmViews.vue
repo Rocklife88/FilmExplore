@@ -66,9 +66,21 @@ text-align: center;
 height:100%;
 border-radius:1rem;
 
-    
-    
   }
+
+
+    @media (max-width: 768px) {
+      .card {
+        max-width: 350px;
+        max-height: none; 
+        margin: 0 auto;
+      }
+    
+      .image {
+        width: 100%; 
+        height: auto; 
+      }
+    }
   </style>
   
   

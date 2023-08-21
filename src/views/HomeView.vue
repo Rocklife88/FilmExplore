@@ -54,9 +54,10 @@ const search =ref('');
 .card-container {
   width: 100%;
   display: flex;
-  gap: 0.5rem;
+  gap: 0.8rem;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
+  margin:0 auto;
 }
 
 .nav-link {
@@ -71,6 +72,20 @@ const search =ref('');
 .nav-link:hover {
   color: aquamarine;
 }
+
+@media (max-width: 768px) { 
+  .card-container {
+    justify-content: center;
+  }
+
+  .container {
+    text-align: center; 
+  }
+
+  
+}
+
+
 </style>
 
 
